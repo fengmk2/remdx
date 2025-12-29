@@ -2,6 +2,9 @@ name: test
 
 on: [push]
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 jobs:
   test:
     runs-on: ubuntu-latest

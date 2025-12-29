@@ -1,10 +1,10 @@
 import { basename } from 'node:path';
 import { compile, CompileOptions, nodeTypes } from '@mdx-js/mdx';
+import type { Plugin } from '@voidzero-dev/vite-plus';
 import matter from 'gray-matter';
 import normalizeNewline from 'normalize-newline';
 import rehypeRaw from 'rehype-raw';
 import shikiTwoslash, { setupForFile } from 'remark-shiki-twoslash';
-import type { Plugin } from 'vite';
 import ColorReplacements from './lib/ColorReplacements.tsx';
 
 type Slide = [string, Record<string, unknown>];

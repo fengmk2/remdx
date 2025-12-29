@@ -11,7 +11,7 @@
   "main": "index.mjs",
   "module": "./index.mjs",
   "scripts": {
-    "build": "rm -f index.mjs; tsdown index.ts --outDir=./ --clean=false --target=node22 --format=esm -dts"
+    "build": "rm -f index.mjs; vite lib index.ts --outDir=./ --clean=false --target=node22 --format=esm -dts"
   },
   "dependencies": {
     "@mdx-js/mdx": "^3.1.1",
@@ -21,6 +21,7 @@
     "remark-shiki-twoslash": "^3.1.3"
   },
   "devDependencies": {
-    "vite": "^7.2.0"
+    "@voidzero-dev/vite-plus": "catalog:",
+    "vite": "catalog:"
   }
 }
