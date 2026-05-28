@@ -5,6 +5,9 @@ packages:
 onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
+allowBuilds:
+  edgedriver: false
+  geckodriver: false
 blockExoticSubdeps: false
 minimumReleaseAge: 60
 minimumReleaseAgeExclude:
