@@ -25,7 +25,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "types": ["vite/client"]
+    "types": ["vite-plus/client"]
   },
   "exclude": ["dist/", "node_modules", "packages/create-remdx/template"],
   "ts-node": {

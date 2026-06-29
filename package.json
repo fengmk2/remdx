@@ -25,11 +25,10 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "typescript": "^6.0.3",
     "vite": "catalog:",
-    "vite-plus": "catalog:",
-    "vitest": "catalog:"
+    "vite-plus": "catalog:"
   },
   "engines": {
-    "node": ">=24.0.0",
+    "node": ">=24.11.0",
     "pnpm": ">=11.0.0"
   },
   "packageManager": "pnpm@11.0.6"
