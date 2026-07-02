@@ -1,3 +1,18 @@
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - '@oxfmt/*'
+  - '@oxlint-tsgolint/*'
+  - '@rolldown/*'
+  - '@tsdown/*'
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+  - tsdown
+  - rolldown
 packages:
   - examples/*
   - packages/*
@@ -6,9 +21,9 @@ onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@^0.1.20
-  vitest: npm:@voidzero-dev/vite-plus-test@^0.1.20
-  vite-plus: ^0.1.20
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251
+  vitest: 4.1.9
+  vite-plus: 0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251
 overrides:
   vite: 'catalog:'
   vitest: 'catalog:'
